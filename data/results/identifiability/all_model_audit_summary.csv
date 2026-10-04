@@ -1,0 +1,6 @@
+model,settings,local_endpoint_disagreements,strict_certificates,globally_feasible,strict_global_reversal_witnesses
+forest,120,108,0,120,80
+logistic,120,34,17,118,16
+tabicl_8,120,58,10,120,3
+tabpfn_1,120,69,2,120,18
+tabpfn_8,120,68,4,120,31

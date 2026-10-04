@@ -1,0 +1,12 @@
+[
+  {
+    "name": "tabpfn-v2-classifier-finetuned-zk73skhh.ckpt",
+    "bytes": 29009539,
+    "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49"
+  },
+  {
+    "name": "tabicl-classifier-v2-20260212.ckpt",
+    "bytes": 110368038,
+    "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0"
+  }
+]

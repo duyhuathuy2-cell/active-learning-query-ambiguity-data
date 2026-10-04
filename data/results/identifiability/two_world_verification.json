@@ -1,0 +1,39 @@
+{
+  "binary_information_bounds": [
+    [
+      0.029049405545331197,
+      0.5310044064107189,
+      0.3,
+      0.45
+    ],
+    [
+      0.0,
+      0.2780719051126377,
+      0.09999999999999998,
+      0.3
+    ]
+  ],
+  "world_information_values": [
+    [
+      0.029049405545331364,
+      0.2780719051126377
+    ],
+    [
+      0.5310044064107189,
+      0.0
+    ]
+  ],
+  "world_gaps": [
+    0.2490224995673065,
+    0.5310044064107189
+  ],
+  "deterministic_minimax_regret_bits": 0.2490224995673065,
+  "randomized_minimax_regret_bits": 0.16952241461447262,
+  "optimal_probability_candidate_1": 0.6807513976007363,
+  "independent_optimizer_value": 0.16952241570176851,
+  "joint_atom_checks_passed": true,
+  "scope": "Minimum-TV compatible two-world information objective; no prediction-loss guarantee.",
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3"
+}

@@ -1,0 +1,425 @@
+{
+  "status": "globally_enclosed",
+  "chosen": 0,
+  "worst_competitor": 1,
+  "lower": 0.2061476528207059,
+  "upper": 0.20676107065154062,
+  "gap": 0.0006134178308347116,
+  "local_regret": 0.8812908992306931,
+  "nodes": 55,
+  "remaining_boxes": 0,
+  "seconds": 0.42896350000000893,
+  "trace": [
+    {
+      "node": 1,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.3976880896427741,
+      "LP_gap": 7.907008381380365e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 2,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.3412898046092992,
+      "LP_gap": 1.0004219674897286e-12,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 3,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.3976880896427741,
+      "LP_gap": 8.137934770502397e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 4,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.1707316846429262,
+      "upper_bound": 0.28489151957521847,
+      "LP_gap": 6.046274592108603e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 5,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.3412898046093211,
+      "LP_gap": 1.0226264279822317e-12,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 6,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.30018871530331614,
+      "LP_gap": 9.78543635010709e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 7,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 8,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.3001887153032941,
+      "LP_gap": 9.563461134121098e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 9,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 10,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.25908762599731133,
+      "LP_gap": 9.347522755831505e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 11,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 12,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.2590876259972892,
+      "LP_gap": 9.124923039394162e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 13,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 14,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.1707316846429262,
+      "upper_bound": 0.24379043026921335,
+      "LP_gap": 5.60440582830779e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 15,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": -0.10071890987136603,
+      "upper_bound": -0.015367276082455248,
+      "LP_gap": 6.754596881819452e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 16,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.232623828741016,
+      "LP_gap": 7.385758671318854e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 17,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 18,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 19,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.23262382874099333,
+      "LP_gap": 7.157052728246072e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 20,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.1707316846429262,
+      "upper_bound": 0.20268934096320881,
+      "LP_gap": 5.170308625679354e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 21,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": -0.10071890987136603,
+      "upper_bound": -0.05646836538846078,
+      "LP_gap": 6.308287225920139e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 22,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.22430860689929347,
+      "LP_gap": 7.212702657355408e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 23,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 24,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.22430860689927076,
+      "LP_gap": 6.98441304791686e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 25,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 26,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.21599338505756996,
+      "LP_gap": 7.030973026012077e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 27,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 28,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.21599338505754723,
+      "LP_gap": 6.802058916122178e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 29,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 30,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.19485046868404798,
+      "upper_bound": 0.20334224349138433,
+      "LP_gap": 5.380557110967743e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 31,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.2125483719765387,
+      "LP_gap": 7.545075675352564e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 32,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.21254837197651588,
+      "LP_gap": 7.315537065011313e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 33,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.1707316846429262,
+      "upper_bound": 0.21425803979679506,
+      "LP_gap": 6.71435129717679e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 34,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.19485046868404798,
+      "upper_bound": 0.20334224349138288,
+      "LP_gap": 5.363487431964131e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 35,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 36,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.2106215703900065,
+      "LP_gap": 7.463751838798771e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 37,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 38,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.21062157038998366,
+      "LP_gap": 7.23421322845752e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 39,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 40,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20869476880347435,
+      "LP_gap": 7.382428002244978e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 41,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 42,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20869476880345153,
+      "LP_gap": 7.153028169781805e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 43,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 44,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20769369052763292,
+      "LP_gap": 7.077394226229217e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 45,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 46,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 47,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20769369052761003,
+      "LP_gap": 6.846606614985262e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 48,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20722738058958654,
+      "LP_gap": 7.036871085830398e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 49,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 50,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.2072273805895636,
+      "LP_gap": 6.805944696708366e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 51,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 52,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20676107065154062,
+      "LP_gap": 7.003286839335487e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 53,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    },
+    {
+      "node": 54,
+      "competitor": 1,
+      "status": "bounded",
+      "primal_regret": 0.2061476528207059,
+      "upper_bound": 0.20676107065151814,
+      "LP_gap": 6.776593175494838e-13,
+      "incumbent": 0.2061476528207059
+    },
+    {
+      "node": 55,
+      "competitor": 1,
+      "status": "pruned_infeasible"
+    }
+  ]
+}

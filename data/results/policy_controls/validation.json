@@ -1,0 +1,40 @@
+{
+  "matched_original_contexts": 600,
+  "matched_original_selector_rows": 6000,
+  "expanded_contexts": 60,
+  "fresh_logistic_trajectories": 600,
+  "fresh_logistic_decisions": 3000,
+  "distinct_certificate_contexts": 169,
+  "certificate_contexts_by_model": {
+    "logistic": 147,
+    "tabpfn_8": 22
+  },
+  "different_certificate_vs_entropy_choices": {
+    "logistic": 41,
+    "tabpfn_8": 5
+  },
+  "mean_certificate_minus_entropy_brier": {
+    "logistic": 0.0015566078871084815,
+    "tabpfn_8": 0.002689710733942477
+  },
+  "independent_oracle_systems": 1600,
+  "oracle_calibration_systems": 400,
+  "oracle_test_systems": 1200,
+  "single_class_contexts_retained": 0,
+  "coverage_implies_true_regret_bound_checked": true,
+  "calibration_rank_recomputed": 96,
+  "tv_calibrated_issued": 0,
+  "tv_uncalibrated_issued": 233,
+  "tv_uncalibrated_wrong": 185,
+  "full_scaling_programs": 21,
+  "inner_scaling_programs": 40,
+  "inner_witnesses_independently_checked": 21,
+  "max_inner_witness_residual": 4.7628567756419216e-14,
+  "scientific_limits": [
+    "no universal predictive improvement",
+    "no historical oracle for ordinary public tasks",
+    "no physical deployment evaluation",
+    "restricted-support failure is inconclusive",
+    "dependent public splits do not support population causal inference"
+  ]
+}

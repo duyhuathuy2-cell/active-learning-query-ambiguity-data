@@ -1,0 +1,21 @@
+{
+  "rows": 221184,
+  "columns": [
+    "dataset",
+    "baseline",
+    "stage",
+    "episode",
+    "threshold",
+    "deploy",
+    "envelope",
+    "different_action",
+    "issued",
+    "observed_challenger_gain",
+    "deployed_gain",
+    "baseline_brier",
+    "deployed_brier"
+  ],
+  "representation": "Lossless numeric float64, int64 and booleans; fixed-width Unicode labels; no pickle",
+  "duplicate_verbose_csv_retained_in_full_project": true,
+  "no_outcomes_filtered": true
+}

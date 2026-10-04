@@ -1,0 +1,27 @@
+{
+  "title": "Experimental data for Decision ambiguity in active learning: Set-valued coherence repair for query selection",
+  "creators": [
+    {
+      "name": "Zongzhi Guo",
+      "affiliation": "Northeastern University"
+    }
+  ],
+  "publication_date": "2026-10-04",
+  "version": "1.0.0",
+  "resource_type": "dataset",
+  "repository": "GitHub",
+  "url": "https://github.com/duyhuathuy2-cell/active-learning-query-ambiguity-data",
+  "version_url": "https://github.com/duyhuathuy2-cell/active-learning-query-ambiguity-data/releases/tag/v1.0.0",
+  "related_manuscript": "Decision ambiguity in active learning: Set-valued coherence repair for query selection",
+  "formats": [
+    "NPZ",
+    "CSV",
+    "JSON",
+    "Markdown"
+  ],
+  "file_inventory": "DATA_MANIFEST.json",
+  "access": "public",
+  "scope": "Recorded predictions, sample and episode indices, realized losses, seeds, results, figure source data and numerical certificates, with scientific reproduction code.",
+  "rights": "No blanket licence has been assigned to the author-generated data or custom code; upstream terms and attribution are retained.",
+  "doi": null
+}

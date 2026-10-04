@@ -1,0 +1,5 @@
+{
+  "original_controls": "all small cases compared with full enumeration; embedded impossible cycle and all five former K64 support failures",
+  "corrected_controls": "embedded impossible cycle and all five former K64 support failures; independent full enumeration controls supplied separately for (2,2),(3,2),(4,3)",
+  "reason": "Independent full enumeration was implemented as three separate small controls, not all benchmark sizes. No numbers, seeds or outcomes changed."
+}

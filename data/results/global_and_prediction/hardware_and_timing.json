@@ -1,0 +1,10 @@
+{
+  "CPU": "Intel Core Ultra 9 290HX Plus",
+  "cores": 24,
+  "logical_processors": 24,
+  "physical_memory_bytes": 33752997888,
+  "LP_backend": "SciPy HiGHS, one solver thread",
+  "runtime": "existing Windows conda scn environment",
+  "timing_unit": "observed wall seconds; separate runs on same host; background load not controlled",
+  "scope": "not an isolated benchmark or an exact speedup estimate; old atom cap120s versus block cap180s explicitly reported"
+}

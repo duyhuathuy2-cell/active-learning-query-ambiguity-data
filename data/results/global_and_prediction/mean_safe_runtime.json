@@ -1,0 +1,34 @@
+{
+  "seconds": 834.5019508999999,
+  "design": {
+    "date": "2026-10-03",
+    "fixed_before_execution": true,
+    "external_preregistration": false,
+    "status": "confirmatory fresh-seed follow-up designed after the 512-episode observable pilot, not original preregistration",
+    "tasks": [
+      "breast_cancer",
+      "iris_binary",
+      "wine_binary",
+      "digits_3_8",
+      "moons",
+      "mechanistic"
+    ],
+    "challenger": "brier_lower",
+    "baseline": "entropy",
+    "calibration_n": 8192,
+    "test_n": 2048,
+    "alpha_family": 0.05,
+    "family_size": 6,
+    "seed_offset": 3100000,
+    "radius": "sqrt(2*squared_sample_sd*log(2*T/alpha)/n)+14*log(2*T/alpha)/(3*(n-1))",
+    "gain_support": [
+      -1,
+      1
+    ],
+    "fixed_gate": "deploy challenger iff mean gain minus the stated radius is strictly positive; otherwise entropy",
+    "unit": "independent seeded episodes conditional on fixed benchmark empirical population, not independent patients/domains",
+    "development_rows": "same independently fixed 30% development rows excluded from every calibration/test episode",
+    "target": "future mean one-query Brier risk under the same empirical episode law; not a sequence or unseen-domain guarantee"
+  },
+  "python": "3.11.15"
+}

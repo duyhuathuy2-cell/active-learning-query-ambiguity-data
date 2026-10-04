@@ -1,0 +1,51 @@
+{
+  "frozen_before_outputs": true,
+  "external_preregistration": false,
+  "purpose": "cached sensitivity and measured local postprocessing; no new neural inference or final-test tuning",
+  "radius_grid": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.025,
+    0.05
+  ],
+  "cached_cases": "all 600 original interfaces, all five model configurations",
+  "calibration_prefixes": [
+    512,
+    2048,
+    8192,
+    16384
+  ],
+  "family_size": 72,
+  "alpha": 0.05,
+  "thresholds": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "scale_K": [
+    8,
+    32,
+    64
+  ],
+  "scale_M": [
+    8,
+    48,
+    128
+  ],
+  "scale_seeds": [
+    951000,
+    951001,
+    951002
+  ],
+  "scale_timed_batches": 21,
+  "scale_calls_per_batch": 50,
+  "scale_warmup_calls": 5,
+  "storage": "actual input plus returned output array bytes; not process peak RAM",
+  "timing": "repair intervals, information averaging and local decision bounds; excludes model calls and KL comparator",
+  "statistical_units": "nested calibration prefixes and overlapping cached splits are descriptive; no new simultaneous family or deployment claim"
+}

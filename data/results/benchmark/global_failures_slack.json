@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "digits_3_8",
+    "model": "logistic",
+    "seed": 4,
+    "minimum_uniform_pair_interval_expansion": 0.0011019691967213835,
+    "max_constraint_residual": 3.3306690738754696e-16
+  },
+  {
+    "dataset": "digits_3_8",
+    "model": "logistic",
+    "seed": 6,
+    "minimum_uniform_pair_interval_expansion": 0.0020443996664555944,
+    "max_constraint_residual": 4.440892098500626e-16
+  }
+]

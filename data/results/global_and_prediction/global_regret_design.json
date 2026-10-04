@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-03",
+  "fixed_before_execution": true,
+  "external_preregistration": false,
+  "cases": [
+    "new_8_4_0",
+    "new_16_8_0",
+    "new_32_8_0",
+    "new_64_8_0",
+    "new_64_16_0"
+  ],
+  "objective": "complete-polytope worst MI regret of the rectangular-minimax action against every other candidate",
+  "epsilon_bits": 0.001,
+  "wall_seconds_per_case": 240,
+  "LP_seconds_per_node": 40,
+  "bound": "positive MI secant and negative MI tangent, complete globally priced linear support; all unresolved boxes retained",
+  "scope": "absolute certified numerical enclosure, not zero-gap rational nonlinear arithmetic"
+}

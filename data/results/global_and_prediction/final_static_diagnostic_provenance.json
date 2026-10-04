@@ -1,0 +1,22 @@
+{
+  "status": "post-confirmation descriptive diagnostic; not a new confirmatory family",
+  "same_final_tests": true,
+  "policies": [
+    "raw",
+    "kl",
+    "js",
+    "lower",
+    "minimax",
+    "tv_midpoint",
+    "endpoint_lo",
+    "endpoint_hi",
+    "entropy",
+    "certify_entropy",
+    "brier_lower",
+    "brier_minimax"
+  ],
+  "tasks": 6,
+  "test_episodes_per_task": 2048,
+  "policy_or_threshold_selection_from_this_diagnostic": false,
+  "seconds": 11.316082500000448
+}

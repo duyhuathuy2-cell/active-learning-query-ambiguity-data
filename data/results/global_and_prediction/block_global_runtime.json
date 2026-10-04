@@ -1,0 +1,15 @@
+{
+  "seconds": 115.88968650000015,
+  "design": {
+    "date": "2026-10-03",
+    "fixed_before_execution": true,
+    "external_preregistration": false,
+    "motivation": "block generation planned after the full-joint-column timing experiment; no result omitted",
+    "cases": "all 15 signed-linear new systems, all five former K64 failures and embedded parity cycle",
+    "initial_target_states": 32,
+    "pricing_batch": 32,
+    "wall_seconds_per_case": 180,
+    "numerical_tolerance": 1e-08,
+    "scope": "complete global-polytope optimization; bounded numerical gap, not rational arithmetic or polynomial time"
+  }
+}

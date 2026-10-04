@@ -1,0 +1,30 @@
+{
+  "status": "numerical_optimum",
+  "seconds": 0.01144369999974515,
+  "states": 13,
+  "active_states": 10,
+  "variables": 117,
+  "iterations": 2,
+  "primal_residual": 1.1102230246251565e-16,
+  "objective": -0.06277833268294152,
+  "global_lower": -0.06277833268308286,
+  "gap": 1.4134526882259024e-13,
+  "minimum_reduced_cost": 0.0,
+  "trace": [
+    {
+      "phase": 2,
+      "target_states": 13,
+      "restricted_objective": -0.06277833268294152,
+      "minimum_reduced_cost": 0.0,
+      "global_lower": -0.06277833268308286,
+      "pricing_seconds": 0.0001374999997096893,
+      "numerical_error_accounting": {
+        "raw_dual": -0.06277833268294152,
+        "dual_roundoff_bound": 2.2419082276355706e-15,
+        "raw_pricing_minimum": 0.0,
+        "pricing_roundoff_bound": 1.3908138390718187e-13,
+        "minimum_reduced_cost_lower": -1.3908138390718187e-13
+      }
+    }
+  ]
+}

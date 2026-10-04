@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-03",
+  "fixed_before_execution": true,
+  "external_preregistration": false,
+  "status": "follow-up bounded-contrast design after the unbounded pilot and two mean-safe task results; all earlier results retained",
+  "tasks": [
+    "breast_cancer",
+    "iris_binary",
+    "wine_binary",
+    "digits_3_8",
+    "moons",
+    "mechanistic"
+  ],
+  "baselines": [
+    "entropy",
+    "raw"
+  ],
+  "thresholds": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "challenger": "brier_lower",
+  "calibration_n": 8192,
+  "fresh_test_n": 2048,
+  "fresh_test_seed_offset": 3300000,
+  "alpha_family": 0.05,
+  "family_size": 72,
+  "candidate_label_access": "only after branch-based gain envelopes and decisions",
+  "envelope": "all two hypothetical query labels for each action and all target outcomes, with same-action contrast exactly zero",
+  "radius": "sqrt(2*variance*log(2*72/alpha)/n)+14*c*log(2*72/alpha)/(3*(n-1))",
+  "selection": "choose largest strictly positive calibration lower confidence bound within the six fixed thresholds, else baseline",
+  "target": "simultaneous mean noninferiority for the six fixed benchmark episode laws and two baselines; no unseen-domain or per-query guarantee"
+}

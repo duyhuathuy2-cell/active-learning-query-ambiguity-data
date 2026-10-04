@@ -1,0 +1,40 @@
+{
+  "seconds": 1005.0995396,
+  "design": {
+    "date": "2026-10-03",
+    "fixed_before_execution": true,
+    "external_preregistration": false,
+    "sizes": [
+      [
+        8,
+        4
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        32,
+        8
+      ],
+      [
+        64,
+        8
+      ],
+      [
+        64,
+        16
+      ]
+    ],
+    "systems_per_size": 3,
+    "seed_offset": 2800000,
+    "benchmark": "independent finite-mixture systems, same branch perturbation 0.03 as old scalable study",
+    "initial_atoms": 128,
+    "pricing_batch": 128,
+    "numerical_tolerance": 1e-08,
+    "wall_seconds_per_system": 120,
+    "endpoint": "complete-polytope feasibility and random signed linear pair functional, not a claimed MI optimum",
+    "controls": "all small cases compared with full enumeration; embedded impossible cycle and all five former K64 support failures",
+    "pricing": "enumerate all states of smaller side and analytically minimize larger-side binary labels; complete, not sampled"
+  }
+}

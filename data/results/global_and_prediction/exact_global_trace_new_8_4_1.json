@@ -1,0 +1,30 @@
+{
+  "status": "globally_optimal",
+  "seconds": 0.011164399999984198,
+  "atoms": 139,
+  "active_atoms": 45,
+  "iterations": 3,
+  "primal_residual": 5.551115123125783e-16,
+  "objective": -0.007833521168383055,
+  "global_lower": -0.00783352116838327,
+  "gap": 2.1510571102112408e-16,
+  "minimum_reduced_cost": -2.1510571102112408e-16,
+  "trace": [
+    {
+      "phase": 2,
+      "atoms": 123,
+      "restricted_objective": -0.007798289635542313,
+      "minimum_reduced_cost": -0.004047633845828716,
+      "global_objective_lower_bound": -0.01184592348137103,
+      "pricing_seconds": 6.970000004002941e-05
+    },
+    {
+      "phase": 2,
+      "atoms": 139,
+      "restricted_objective": -0.007833521168383055,
+      "minimum_reduced_cost": -2.1510571102112408e-16,
+      "global_objective_lower_bound": -0.00783352116838327,
+      "pricing_seconds": 6.21000000364802e-05
+    }
+  ]
+}

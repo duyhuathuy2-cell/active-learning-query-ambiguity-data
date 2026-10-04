@@ -1,0 +1,47 @@
+{
+  "status": "numerical_feasible",
+  "seconds": 4.653505700000096,
+  "states": 96,
+  "active_states": 56,
+  "variables": 6240,
+  "iterations": 3,
+  "primal_residual": 2.248201624865942e-14,
+  "objective": 0.0,
+  "global_lower": 0.0,
+  "gap": 0.0,
+  "minimum_reduced_cost": 0.0,
+  "trace": [
+    {
+      "phase": 1,
+      "target_states": 32,
+      "restricted_objective": 1.307838279289576,
+      "minimum_reduced_cost": -45.5690519451558,
+      "global_lower": -44.26121366713283,
+      "pricing_seconds": 0.06199370000013005,
+      "numerical_error_accounting": {
+        "raw_dual": 1.3078382792895766,
+        "dual_roundoff_bound": 3.3832521861609546e-11,
+        "raw_pricing_minimum": -45.5690519451558,
+        "pricing_roundoff_bound": 1.232766287140406e-09,
+        "minimum_reduced_cost_lower": -45.56905194638856
+      }
+    },
+    {
+      "phase": 1,
+      "target_states": 64,
+      "restricted_objective": 0.059746892296739705,
+      "minimum_reduced_cost": -8.457337409502376,
+      "global_lower": -8.397590517437477,
+      "pricing_seconds": 0.06293749999986176,
+      "numerical_error_accounting": {
+        "raw_dual": 0.05974689229674279,
+        "dual_roundoff_bound": 8.166619240294087e-12,
+        "raw_pricing_minimum": -8.457337409502376,
+        "pricing_roundoff_bound": 2.2367509407158012e-10,
+        "minimum_reduced_cost_lower": -8.457337409726051
+      }
+    }
+  ],
+  "dual_eq": null,
+  "dual_ub": null
+}

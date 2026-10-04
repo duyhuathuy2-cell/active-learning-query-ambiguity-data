@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+type: dataset
+message: "If you use these experimental data, cite this versioned dataset."
+title: "Experimental data for Decision ambiguity in active learning: Set-valued coherence repair for query selection"
+authors:
+  - family-names: "Guo"
+    given-names: "Zongzhi"
+    affiliation: "Northeastern University"
+version: "1.0.0"
+date-released: "2026-10-04"
+url: "https://github.com/duyhuathuy2-cell/active-learning-query-ambiguity-data/releases/tag/v1.0.0"
+repository-code: "https://github.com/duyhuathuy2-cell/active-learning-query-ambiguity-data"

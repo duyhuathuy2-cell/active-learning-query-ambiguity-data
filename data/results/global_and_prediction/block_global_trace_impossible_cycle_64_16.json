@@ -1,0 +1,24 @@
+{
+  "status": "globally_infeasible",
+  "violation_lower_bound": 0.49999999997428163,
+  "seconds": 0.07119300000022122,
+  "states": 32,
+  "iterations": 1,
+  "trace": [
+    {
+      "phase": 1,
+      "target_states": 32,
+      "restricted_objective": 0.5,
+      "minimum_reduced_cost": 0.0,
+      "global_lower": 0.49999999997428163,
+      "pricing_seconds": 0.00022540000009030337,
+      "numerical_error_accounting": {
+        "raw_dual": 0.5,
+        "dual_roundoff_bound": 1.1823875212263511e-12,
+        "raw_pricing_minimum": 0.0,
+        "pricing_roundoff_bound": 2.4535928844276163e-11,
+        "minimum_reduced_cost_lower": -2.4535928844276163e-11
+      }
+    }
+  ]
+}

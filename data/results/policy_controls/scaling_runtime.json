@@ -1,0 +1,47 @@
+{
+  "seconds": 49.43929779998143,
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "design": {
+    "date": "2026-10-02",
+    "fixed_before_execution": true,
+    "externally_preregistered": false,
+    "cached_comparison": "all 600 original settings and 60 expanded settings; ten selectors",
+    "certificate_intervention": "every archived sequential state with a strict certificate; actual candidate labels revealed after scoring",
+    "new_sequential": "original six fixed tasks, logistic, ten splits, five queries; all ten selectors freshly fitted in one environment",
+    "oracle_families": [
+      "linear",
+      "interaction",
+      "radial",
+      "threshold"
+    ],
+    "oracle_systems_per_family": 400,
+    "calibration_systems": 100,
+    "test_systems": 300,
+    "oracle_candidates": 8,
+    "oracle_targets": 16,
+    "initial_labels": 16,
+    "oracle_learner": "StandardScaler + LogisticRegression(C=1,max_iter=1000)",
+    "oracle_definition": "exact finite-hypothesis posterior, Bernoulli outcomes conditionally independent given shared hypothesis",
+    "cost_sensitivity": "fixed geometric query costs 0.5..2; fixed target weights 1..2; information/cost objective",
+    "lp_candidates": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "lp_targets": 16,
+    "lp_repetitions": 3,
+    "lp_seconds_per_solve": 10,
+    "lp_resource_gate": "skip exact solve if candidates >12 or sparse stored arrays >128 MiB; report skipped status",
+    "inference": "new classical-model inference; existing neural outputs reused explicitly",
+    "reporting": "complete outcomes; matched per-system contrasts; no favourable task/seed filtering"
+  }
+}

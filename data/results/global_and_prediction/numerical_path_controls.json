@@ -1,0 +1,25 @@
+{
+  "boundary_cases": [
+    {
+      "delta": 0.0,
+      "raw_status": "numerical_optimum",
+      "verification_status": "verified_linear_enclosure"
+    },
+    {
+      "delta": 5e-09,
+      "raw_status": "inconclusive_solver",
+      "verification_status": "inconclusive_solver"
+    }
+  ],
+  "coarse_epsilon": 0.01,
+  "coarse_gap": 0.009845732236864052,
+  "fine_epsilon": 0.0005,
+  "fine_gap": 0.000384642740048291,
+  "fine_nodes": 59,
+  "globally_infeasible_children": 21,
+  "forced_interruption_status": "bounded_solver_limit",
+  "forced_interruption_upper": 0.8812908992306933,
+  "unresolved_bounds_retained": true,
+  "corrupted_negative_joint_rejected": "inconclusive_exact_feasibility",
+  "raw_solver_statuses_are_explicitly_provisional": true
+}

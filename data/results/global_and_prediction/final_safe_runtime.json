@@ -1,0 +1,43 @@
+{
+  "seconds": 889.1385931999998,
+  "design": {
+    "date": "2026-10-03",
+    "fixed_before_execution": true,
+    "external_preregistration": false,
+    "status": "sample size increased based on the earlier threshold pilot before any bounded_confirmatory_summary existed",
+    "tasks": [
+      "breast_cancer",
+      "iris_binary",
+      "wine_binary",
+      "digits_3_8",
+      "moons",
+      "mechanistic"
+    ],
+    "baselines": [
+      "entropy",
+      "raw"
+    ],
+    "thresholds": [
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "challenger": "brier_lower",
+    "calibration_n": 16384,
+    "final_test_n": 2048,
+    "seed_offset": 5000000,
+    "additional_calibration_offset": 8192,
+    "final_test_offset": 70000,
+    "alpha_family": 0.05,
+    "family_size": 72,
+    "radius": "sqrt(2*variance*log(2*72/alpha)/n)+14*c*log(2*72/alpha)/(3*(n-1))",
+    "selection": "largest positive calibration lower bound over fixed thresholds; fallback baseline otherwise",
+    "boundary": "future mean loss under six fixed empirical episode laws, not per-query or unseen-domain benefit",
+    "earlier_test_access": "earlier confirmatory test outcomes do not set final choices; entirely fresh final test batch",
+    "study_history": "all exploratory, unbounded and earlier fixed-size outcomes retained without optional favorable-task removal"
+  },
+  "all_six_tasks_complete": true
+}

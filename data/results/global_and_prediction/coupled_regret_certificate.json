@@ -1,0 +1,52 @@
+{
+  "blend": "0",
+  "candidate_flip_kernels": [
+    [
+      "0",
+      "1"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "target_flip_kernels": [
+    [
+      "0",
+      "1"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "exact_marginals_a": [
+    "1/2",
+    "1/2"
+  ],
+  "exact_marginals_b": [
+    "1/2",
+    "1/2"
+  ],
+  "exact_pair_joint": [
+    [
+      "3152519739159347/9007199254740992",
+      "3152519739159347/9007199254740992"
+    ],
+    [
+      "3152519739159347/9007199254740992",
+      "450359962737049/9007199254740992"
+    ]
+  ],
+  "exact_normalization_and_marginals": true,
+  "all_pair_bounds_checked_with_rationals": true,
+  "case": "coupled_2_2",
+  "chosen": 0,
+  "competitor": 1,
+  "verified_lower": 0.2061476528207059,
+  "verified_upper": 0.20676108065154064,
+  "verified_gap": 0.0006134278308347341,
+  "grid_max": 0.2061476528207058,
+  "grid_points": 923521,
+  "grid_feasible_points": 10626
+}

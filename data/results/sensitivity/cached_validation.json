@@ -1,0 +1,7 @@
+{
+  "cached_interfaces": 600,
+  "baseline_equivalence_passed": true,
+  "linear_decision_bounds_checked": true,
+  "calibration_original_max_error": 1.0104764247564901e-16,
+  "timing_rerun": false
+}

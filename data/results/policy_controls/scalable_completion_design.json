@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "targets": 16,
+  "systems_per_k": 5,
+  "atom_budgets": [
+    256,
+    1024
+  ],
+  "seed_offset": 950000,
+  "perturbation": 0.03,
+  "time_limit_seconds": 5,
+  "fixed_before_execution": true,
+  "scope": "inner feasibility; unsuccessful search is inconclusive; independent latent-system draws"
+}

@@ -1,0 +1,21 @@
+{
+  "all_72_calibration_choices_recomputed": true,
+  "final_outcomes_checked": 221184,
+  "final_positive_pairs": 9,
+  "exact_baseline_fallback_pairs": 3,
+  "maximum_calibration_recomputation_error": 1.0104764247564901e-16,
+  "raw_contrast_checks": "all 110592 inference episodes, two baselines each",
+  "maximum_raw_contrast_error": 9.996344030316351e-17,
+  "development_row_exclusion_tasks": 6,
+  "candidate_target_outcome_perturbation_changes_no_actions_or_envelopes": true,
+  "exact_global_construction_certificates_checked": 21,
+  "linear_objective_certificates": 15,
+  "maximum_verified_linear_gap": 4.4258326864499153e-10,
+  "complete_pricing_bruteforce_cases": 90,
+  "maximum_pricing_error": 1.7763568394002505e-15,
+  "nonlinear_enclosures_checked": 6,
+  "coupled_branch_nodes": 55,
+  "mode": "full",
+  "global_minimax_action_certificates_checked": 5,
+  "maximum_global_action_gap": 0.0005955567927906462
+}

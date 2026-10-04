@@ -1,0 +1,33 @@
+{
+  "mode": "sequential",
+  "models": [
+    "logistic"
+  ],
+  "seeds": 10,
+  "initial_labels": 16,
+  "pool": 8,
+  "target": 48,
+  "budgets": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "date": "2026-09-30",
+  "prospective": "Configuration written before executing this batch. Not externally preregistered.",
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "python.exe",
+  "torch": "2.13.0+cu130",
+  "sklearn": "1.6.1",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "elapsed_seconds": 17.221356299938634,
+  "original_summary_milestones": [
+    1,
+    3,
+    5
+  ],
+  "metadata_correction": "All five steps were executed by the original loop. The former budgets field listed figure tick milestones, not excluded steps. Corrected after table completeness check.",
+  "host_path_note": "Personal runtime path omitted for anonymity; Python/package versions and scientific configuration retained."
+}

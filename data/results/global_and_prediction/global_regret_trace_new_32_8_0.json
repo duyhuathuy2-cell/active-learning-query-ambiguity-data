@@ -1,0 +1,23 @@
+{
+  "status": "numerical_enclosure",
+  "chosen": 19,
+  "worst_competitor": 26,
+  "lower": 0.014674392051359758,
+  "upper": 0.014688187475194273,
+  "gap": 1.3795423834514833e-05,
+  "local_regret": 0.014688187475194271,
+  "nodes": 1,
+  "remaining_boxes": 30,
+  "seconds": 0.6780393999997614,
+  "trace": [
+    {
+      "node": 1,
+      "competitor": 26,
+      "status": "bounded",
+      "primal_regret": 0.014674392051359758,
+      "upper_bound": 0.014688187475194273,
+      "LP_gap": 3.34590688488845e-12,
+      "incumbent": 0.014674392051359758
+    }
+  ]
+}

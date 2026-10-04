@@ -1,0 +1,78 @@
+{
+  "status": "globally_optimal",
+  "seconds": 1.455651200000034,
+  "atoms": 1024,
+  "active_atoms": 297,
+  "iterations": 9,
+  "primal_residual": 1.1401990462900358e-13,
+  "objective": -0.00540487460129746,
+  "global_lower": -0.005404874603076549,
+  "gap": 1.779089028874914e-12,
+  "minimum_reduced_cost": -1.7790891372951312e-12,
+  "trace": [
+    {
+      "phase": 1,
+      "atoms": 128,
+      "restricted_objective": 4.474890220773823,
+      "minimum_reduced_cost": -29.88445096565434,
+      "global_objective_lower_bound": -25.40956074488052,
+      "pricing_seconds": 0.0004916000000321219
+    },
+    {
+      "phase": 1,
+      "atoms": 256,
+      "restricted_objective": 2.552696843388137,
+      "minimum_reduced_cost": -28.433537532470407,
+      "global_objective_lower_bound": -25.88084068908227,
+      "pricing_seconds": 0.00039470000001529115
+    },
+    {
+      "phase": 1,
+      "atoms": 384,
+      "restricted_objective": 0.9254337679520314,
+      "minimum_reduced_cost": -15.961346285879767,
+      "global_objective_lower_bound": -15.035912517927736,
+      "pricing_seconds": 0.00034479999999348365
+    },
+    {
+      "phase": 1,
+      "atoms": 512,
+      "restricted_objective": 0.15907867825484312,
+      "minimum_reduced_cost": -9.949356204634222,
+      "global_objective_lower_bound": -9.790277526379379,
+      "pricing_seconds": 0.0003544999999576248
+    },
+    {
+      "phase": 2,
+      "atoms": 640,
+      "restricted_objective": -0.0013822770122336834,
+      "minimum_reduced_cost": -0.18705491580971162,
+      "global_objective_lower_bound": -0.1884371928219453,
+      "pricing_seconds": 0.0005369000000428059
+    },
+    {
+      "phase": 2,
+      "atoms": 768,
+      "restricted_objective": -0.0037134477235159264,
+      "minimum_reduced_cost": -0.050768637227559026,
+      "global_objective_lower_bound": -0.054482084951074955,
+      "pricing_seconds": 0.000550099999941267
+    },
+    {
+      "phase": 2,
+      "atoms": 896,
+      "restricted_objective": -0.005217360937972018,
+      "minimum_reduced_cost": -0.019922130166658777,
+      "global_objective_lower_bound": -0.025139491104630794,
+      "pricing_seconds": 0.0005092000000104235
+    },
+    {
+      "phase": 2,
+      "atoms": 1024,
+      "restricted_objective": -0.00540487460129746,
+      "minimum_reduced_cost": -1.7790891372951312e-12,
+      "global_objective_lower_bound": -0.005404874603076549,
+      "pricing_seconds": 0.000555299999973613
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "numerical_enclosure",
+  "chosen": 3,
+  "worst_competitor": 8,
+  "lower": 0.012839772723248856,
+  "upper": 0.013435329494502183,
+  "gap": 0.0005955567712533274,
+  "local_regret": 0.013435329494502182,
+  "nodes": 2,
+  "remaining_boxes": 15,
+  "seconds": 0.2881304000002274,
+  "trace": [
+    {
+      "node": 1,
+      "competitor": 8,
+      "status": "bounded",
+      "primal_regret": 0.012010882323787268,
+      "upper_bound": 0.013435329494502183,
+      "LP_gap": 1.7552070907811412e-12,
+      "incumbent": 0.012010882323787268
+    },
+    {
+      "node": 2,
+      "competitor": 8,
+      "status": "bounded",
+      "primal_regret": 0.012839772723248856,
+      "upper_bound": 0.013435329494502183,
+      "LP_gap": 1.593447596093256e-12,
+      "incumbent": 0.012839772723248856
+    }
+  ]
+}

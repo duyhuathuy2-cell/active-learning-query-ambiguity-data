@@ -1,0 +1,6 @@
+model,settings,minima_feasible,lower_endpoints_feasible,upper_endpoints_feasible,local_endpoint_disagreements,strict_global_reversal_witnesses,local_disagreements_without_strict_global_witness
+forest,120,120,104,94,108,80,28
+logistic,120,118,111,68,34,16,18
+tabicl_8,120,120,20,7,58,3,55
+tabpfn_1,120,120,58,37,69,18,51
+tabpfn_8,120,120,93,56,68,31,37

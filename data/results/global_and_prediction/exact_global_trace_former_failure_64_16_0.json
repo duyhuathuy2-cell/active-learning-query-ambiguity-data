@@ -1,0 +1,128 @@
+{
+  "status": "inconclusive_solver",
+  "solver_status": 1,
+  "seconds": 120.11636239999984,
+  "atoms": 2048,
+  "trace": [
+    {
+      "phase": 1,
+      "atoms": 128,
+      "restricted_objective": 27.894059589951294,
+      "minimum_reduced_cost": -146.525619719616,
+      "global_objective_lower_bound": -118.6315601296647,
+      "pricing_seconds": 0.031268299999965166
+    },
+    {
+      "phase": 1,
+      "atoms": 256,
+      "restricted_objective": 23.489479491546103,
+      "minimum_reduced_cost": -105.53665033823448,
+      "global_objective_lower_bound": -82.04717084668837,
+      "pricing_seconds": 0.029599199999893244
+    },
+    {
+      "phase": 1,
+      "atoms": 384,
+      "restricted_objective": 19.77318149001228,
+      "minimum_reduced_cost": -120.52377239993136,
+      "global_objective_lower_bound": -100.75059090991908,
+      "pricing_seconds": 0.03136349999999766
+    },
+    {
+      "phase": 1,
+      "atoms": 512,
+      "restricted_objective": 15.544148923874024,
+      "minimum_reduced_cost": -83.21264231739559,
+      "global_objective_lower_bound": -67.66849339352157,
+      "pricing_seconds": 0.03025049999996554
+    },
+    {
+      "phase": 1,
+      "atoms": 640,
+      "restricted_objective": 11.881876516199727,
+      "minimum_reduced_cost": -81.75021842504748,
+      "global_objective_lower_bound": -69.86834190884775,
+      "pricing_seconds": 0.03188640000007581
+    },
+    {
+      "phase": 1,
+      "atoms": 768,
+      "restricted_objective": 9.934227228069341,
+      "minimum_reduced_cost": -75.45033485122076,
+      "global_objective_lower_bound": -65.51610762315141,
+      "pricing_seconds": 0.030439700000215453
+    },
+    {
+      "phase": 1,
+      "atoms": 896,
+      "restricted_objective": 7.579873822804309,
+      "minimum_reduced_cost": -60.24161087034979,
+      "global_objective_lower_bound": -52.66173704754548,
+      "pricing_seconds": 0.030328499999995984
+    },
+    {
+      "phase": 1,
+      "atoms": 1024,
+      "restricted_objective": 5.777027546060171,
+      "minimum_reduced_cost": -57.9198138184123,
+      "global_objective_lower_bound": -52.14278627235213,
+      "pricing_seconds": 0.03094979999991665
+    },
+    {
+      "phase": 1,
+      "atoms": 1152,
+      "restricted_objective": 4.165731139372984,
+      "minimum_reduced_cost": -47.75342948290191,
+      "global_objective_lower_bound": -43.58769834352892,
+      "pricing_seconds": 0.030502099999921484
+    },
+    {
+      "phase": 1,
+      "atoms": 1280,
+      "restricted_objective": 2.837039105564633,
+      "minimum_reduced_cost": -46.990908714661664,
+      "global_objective_lower_bound": -44.15386960909703,
+      "pricing_seconds": 0.03062739999995756
+    },
+    {
+      "phase": 1,
+      "atoms": 1408,
+      "restricted_objective": 2.0548833983503263,
+      "minimum_reduced_cost": -44.66889311051321,
+      "global_objective_lower_bound": -42.61400971216288,
+      "pricing_seconds": 0.029978100000107588
+    },
+    {
+      "phase": 1,
+      "atoms": 1536,
+      "restricted_objective": 1.6931447028559659,
+      "minimum_reduced_cost": -36.333681586138525,
+      "global_objective_lower_bound": -34.64053688328256,
+      "pricing_seconds": 0.030537999999978638
+    },
+    {
+      "phase": 1,
+      "atoms": 1664,
+      "restricted_objective": 1.0856869984848854,
+      "minimum_reduced_cost": -36.238687734118194,
+      "global_objective_lower_bound": -35.153000735633306,
+      "pricing_seconds": 0.03006239999990612
+    },
+    {
+      "phase": 1,
+      "atoms": 1792,
+      "restricted_objective": 0.8313242914988916,
+      "minimum_reduced_cost": -29.477700865983955,
+      "global_objective_lower_bound": -28.646376574485064,
+      "pricing_seconds": 0.030408899999883943
+    },
+    {
+      "phase": 1,
+      "atoms": 1920,
+      "restricted_objective": 0.5823954206013112,
+      "minimum_reduced_cost": -26.280923667672614,
+      "global_objective_lower_bound": -25.6985282470713,
+      "pricing_seconds": 0.030732799999896088
+    }
+  ]
+}

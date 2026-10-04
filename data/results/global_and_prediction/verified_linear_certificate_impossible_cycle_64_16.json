@@ -1,0 +1,12 @@
+{
+  "case": "impossible_cycle_64_16",
+  "status": "verified_global_infeasibility",
+  "violation_lower": 0.49999999997428163,
+  "accounting": {
+    "raw_dual": 0.5,
+    "dual_roundoff_bound": 1.1823875212263511e-12,
+    "raw_pricing_minimum": 0.0,
+    "pricing_roundoff_bound": 2.4535928844276163e-11,
+    "minimum_reduced_cost_lower": -2.4535928844276163e-11
+  }
+}

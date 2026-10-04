@@ -1,0 +1,40 @@
+{
+  "n_random_cases": 10000,
+  "max_minimum_cost_error": 1.1102230246251565e-16,
+  "max_enclosure_violation": 3.3306690738754696e-16,
+  "bayes_max_tower_error": 7.401486830834377e-17,
+  "bayes_max_interval_width": 9.280770596475918e-17,
+  "global_cycle_feasible": false,
+  "global_cycle_minimum_cost": 1.0,
+  "ranking_counterexample": {
+    "a": [
+      0.5,
+      0.5
+    ],
+    "b": [
+      0.5
+    ],
+    "q0": [
+      0.1,
+      0.8
+    ],
+    "q1": [
+      0.6,
+      0.6
+    ]
+  },
+  "global_ranking_world_values": [
+    [
+      0.029049405545331197,
+      0.2780719051126377
+    ],
+    [
+      0.5310044064107189,
+      0.029049405545331197
+    ]
+  ],
+  "lp_trials": 300,
+  "globally_infeasible_local_optima": 0,
+  "bayes_tower_metric": "Maximum across candidates of target-mean absolute tower error",
+  "bayes_width_metric": "Maximum candidate acquisition-interval width after target averaging"
+}
